@@ -21,10 +21,10 @@ public class MovieViewController {
 
     private final RestTemplate restTemplate;
     @Value("${movies-api.username}")
-//    @Value("${movies-api.username}")
+//    @Value("admin")
     private String username;
     @Value("${movies-api.password}")
-//    @Value("${movies-api.password}")
+//    @Value("admin")
     private String password;
 
     @GetMapping("/movies")
